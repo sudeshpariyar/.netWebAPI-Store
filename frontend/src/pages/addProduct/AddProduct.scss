@@ -1,0 +1,7 @@
+@import "../../mixins";
+
+.add-product {
+  @include d-flex(column, center, center);
+  gap: 2rem;
+  margin-top: 2rem;
+}

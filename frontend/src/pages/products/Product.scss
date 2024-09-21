@@ -1,0 +1,28 @@
+@import "../../mixins";
+
+.products {
+  @include d-flex(column, center, center);
+  margin-top: 2rem;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.table-wrapper {
+  width: 100%;
+  padding: 2rem;
+  overflow: auto;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 30px 20px rgba($color: #000000, $alpha: 0.1);
+  border-radius: 2rem;
+
+  table {
+    width: 100%;
+  }
+  td,
+  th {
+    border: 1px solid #e6e6e6;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.5rem 0rem;
+  }
+}

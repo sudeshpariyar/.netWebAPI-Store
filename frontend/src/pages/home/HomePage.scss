@@ -1,0 +1,15 @@
+@import "../../mixins";
+.home {
+  @include d-flex(column, center, center);
+  margin-top: 2rem;
+  h1 {
+    color: #0000ff;
+    margin-bottom: 2rem;
+  }
+  img {
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+}
